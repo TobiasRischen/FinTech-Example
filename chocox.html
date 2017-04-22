@@ -1,9 +1,25 @@
 <!DOCTYPE html> <html lang="en">
   <head>
-    <title>Hello World</title>
+    <title>ChocoX</title>
   </head>
   <body>
-    <h1>Hello World</h1>
-  <p>Tobi was here.</p>     
+    <h1>ChocoX</h1>
+  <p>Here we will auction off 250 schokobons at 6:00pm
+  Every bid is binding.
+  It can be paid in cash or to the IBAN DE89 4666 0022 0017 6268 00.
+  The auction will have maximum 5 rounds:
+  Round 1: 0.02 EUR / Schokobons
+  Round 2: 0.04 EUR / Schokobons
+  Round 3: 0.06 EUR / Schokobons
+  Round 4: 0.08 EUR / Schokobons
+  Round 5: 0.10 EUR / Schokobons
+  </p>
+  <form action="chocox.py" method="post">
+  My name:<br>
+  <input type="text" name="name" value="My name"><br>
+  My bid:<br>
+  <input type="text" name="bid" value="My bid"><br><br>
+  <input type="submit" value="Submit bid">
+</form>
   </body>
   </html>
